@@ -1,2 +1,26 @@
-# collaborations
-A utility for recording what folders a user is collaborating on and/or who's collaborating on folders owned by a user.\
+# Collaborations
+
+A Windows-based utility that can answer:
+
+* what folders is a given user collaborating on? 
+* who is collaborating on folders owned by a given user?
+
+This utility requires a valid Box access token that has enterprise management privileges in order to determine folder,  collaboration, and group metadata for arbitrary users.
+
+# Usage
+
+To record the folders a user is collaborating on:
+    
+    collaborations.exe -r=member -u=<username> -t=<box access token> -o=<path to result.csv>
+
+To record the collaborators on folders owned by a user:
+    
+    collaborations.exe -r=owner -u=<username> -t=<box access token> -o=<path to result.csv>
+
+To record collaboration information for a comma-separated file of users, use the *-i* option instead of *-u*
+
+    collaborations.exe -r=member -i=<path to usernames file> -t=<box access token> -o=<path to results file>
+
+# Build Instructions
+
+This solution requires the .Net 4.5 framework and can be build in Visual Studio 2013.
