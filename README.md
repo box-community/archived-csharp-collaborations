@@ -23,4 +23,4 @@ To record collaboration information for a comma-separated file of users, use the
 
 # Build Instructions
 
-This solution requires the .Net 4.5 framework and can be build in Visual Studio 2013.
+This solution requires the .Net 4.5 framework and can be built in Visual Studio 2013.
