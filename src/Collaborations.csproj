@@ -35,9 +35,6 @@
     <Reference Include="Box.V2">
       <HintPath>packages\Box.V2.1.1.1\lib\portable-net40+sl50+wp80+win\Box.V2.dll</HintPath>
     </Reference>
-    <Reference Include="CsvHelper">
-      <HintPath>packages\CsvHelper.2.7.0\lib\net40-client\CsvHelper.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Threading.Tasks">
       <HintPath>packages\Microsoft.Bcl.Async.1.0.16\lib\net45\Microsoft.Threading.Tasks.dll</HintPath>
     </Reference>
