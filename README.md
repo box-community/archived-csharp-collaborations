@@ -9,6 +9,8 @@ This utility requires a valid Box access token that has enterprise management pr
 
 # Usage
 
+Download the `/artifacts` folder on a Windows computer. From this folder you can run `collaborations.exe`.
+
 To record the folders a user is collaborating on:
     
     collaborations.exe -r=member -u=<username> -t=<box access token> -o=<path to result.csv>
