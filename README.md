@@ -4,7 +4,7 @@ style="margin-left:-10px;"
 width=40%;>
 # Collaborations
 
-A Windows-based utility that can answer:
+A Windows-based utility that can answer: 
 
 * what folders is a given user collaborating on? 
 * who is collaborating on folders owned by a given user?
